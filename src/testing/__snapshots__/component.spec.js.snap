@@ -21,6 +21,60 @@ exports[`Render customButton render customButton correctly 1`] = `
 </View>
 `;
 
+exports[`Render customTextInput render customTextInput correctly 1`] = `
+<TextInput
+  allowFontScaling={true}
+  rejectResponderTermination={true}
+  style={
+    Object {
+      "backgroundColor": "#c7c7c7",
+      "borderRadius": 10,
+      "marginVertical": "5%",
+      "paddingHorizontal": "5%",
+      "width": "100%",
+    }
+  }
+  underlineColorAndroid="transparent"
+/>
+`;
+
+exports[`Render roundButton render roundButton correctly 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "blue",
+      "borderRadius": 50,
+      "height": 70,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 70,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 24,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    +
+  </Text>
+</View>
+`;
+
 exports[`render customButton correctly 1`] = `
 <View
   accessible={true}
